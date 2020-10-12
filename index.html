@@ -2,18 +2,20 @@
 <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
 <a-scene>
   <a-assets>
-    <a-asset-item id="my-obj" src="covid-obj.obj"></a-asset-item>
-    <a-asset-item id="my-mtl" src="covid-obj.mtl"></a-asset-item>
+
+    <a-asset-item id="tardigrade" src="tardigrade.obj"></a-asset-item>
   </a-assets>
 
-  <a-entity camera look-controls position="0 0 3"></a-entity>
+  <a-entity camera look-controls position="0 0 0"></a-entity>
 
-  <a-sky color="#E6DB6F"></a-sky>
+  <a-sky color="black"></a-sky>
 
-  <a-entity id="my-model"
-    scale=".1 .1 .1"
-    position="0 0 -40"
+
+<a-entity id="waterbear"
+    scale="5 5 5"
+    position="0 0 -25"
     rotation="0 0 0"
-    obj-model="obj: #my-obj; mtl: #my-mtl"></a-entity>
-
+    obj-model="obj: #tardigrade"
+    color="blue"
+    ></a-entity>
 </a-scene>
