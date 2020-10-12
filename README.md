@@ -1,2 +1,2 @@
-# HYPNO-LOOP
+# Bubble Bears
 ◕ ◞ ◕ This project was made using https://netnet.studio
